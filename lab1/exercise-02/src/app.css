@@ -1,0 +1,22 @@
+.toDoList{
+    border: 1px solid black;
+}
+input[type=checkbox]:checked~span{
+    transition: all ease 0.5s;
+    background-color:rgba(154, 197, 52, 0.6);
+    text-decoration:line-through pink;
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+    -ms-transition: all ease 0.5s;
+    -o-transition: all ease 0.5s;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style:none;
+}
+
+
+    
